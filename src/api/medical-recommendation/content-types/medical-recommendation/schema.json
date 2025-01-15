@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medical_recommendations",
+  "info": {
+    "singularName": "medical-recommendation",
+    "pluralName": "medical-recommendations",
+    "displayName": "MedicalRecommendation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "FileName": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

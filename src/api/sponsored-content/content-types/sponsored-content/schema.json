@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sponsored_contents",
+  "info": {
+    "singularName": "sponsored-content",
+    "pluralName": "sponsored-contents",
+    "displayName": "SponsoredContent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "VendorName": {
+      "type": "string"
+    },
+    "AdContent": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
